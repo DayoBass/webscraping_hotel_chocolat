@@ -10,7 +10,6 @@ from constant import number_of_pages_to_extract, output_data, wait_time_seconds
 
 # start timing the extraction
 start_time = time.time()
-print(start_time)
 
 # scraping from 2310 pages
 # create list and loop through the number of pages to extract
