@@ -17,7 +17,7 @@ chocolat_data = []
 for i in range(1, number_of_pages_to_extract):
     choco_url = 'https://uk.trustpilot.com/review/hotelchocolat.com?page={}'.format(i)
     chocolat_data += scrape_single_page(choco_url)
-    # after every 5 pages, wait for 185 seconds (wait_time_seconds) before continuing
+    # after every 20 pages, wait for 185 seconds (wait_time_seconds) before continuing
     if i % 20 == 0:
         time.sleep(wait_time_seconds)
 
